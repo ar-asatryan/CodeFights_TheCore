@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7AFA6CFF-8458-4FB6-82ED-AC5F04533C98}</ProjectGuid>
+    <ProjectGuid>{DC7DB550-8C37-413C-A73E-EAA8CAA11D62}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CurrentTask</RootNamespace>
-    <AssemblyName>CurrentTask</AssemblyName>
+    <RootNamespace>t008_PhoneCall</RootNamespace>
+    <AssemblyName>t008_PhoneCall</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentProgram.cs" />
+    <Compile Include="PhoneCall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

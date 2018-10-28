@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7AFA6CFF-8458-4FB6-82ED-AC5F04533C98}</ProjectGuid>
+    <ProjectGuid>{B7C079B9-D5C8-4EE4-9FA8-085BAFF9CD8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CurrentTask</RootNamespace>
-    <AssemblyName>CurrentTask</AssemblyName>
+    <RootNamespace>t004_SeatsInTheater</RootNamespace>
+    <AssemblyName>t004_SeatsInTheater</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentProgram.cs" />
+    <Compile Include="SeatsInTheater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
